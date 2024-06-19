@@ -24,7 +24,8 @@ export class ClientFormComponent {
     // Simulating delayed initialization (e.g., after API call)
     setTimeout(() => {
       // Set initial values after the form is ready
-      this.model = new Client(-1, 'John Doe', 'john@doe.com', '123 Main Street', '');// Replace with your actual initial value
+      //this.model = new Client(-1, 'John Doe', 'johndoe@gmail.com', '123 State St.', '');// Replace with your actual initial value
+      this.model = new Client(-1, '', '', '', '')
     }, 1000000000000000); // Adjust delay as needed
   }
 

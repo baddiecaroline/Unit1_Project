@@ -22,8 +22,9 @@ export class MeetingsComponent {
     // Simulating delayed initialization (e.g., after API call)
     setTimeout(() => {
       // Set initial values after the form is ready
-      this.model = new Meeting('test topic',-1, new Date, 'test@email.com' );// Replace with your actual initial value
-    }, 1000000000000000); // Adjust delay as needed
+      //this.model = new Meeting('test topic',-1, new Date, 'test@email.com' );// Replace with your actual initial value
+      this.model = new Meeting('',1, new Date, '' );
+    }, 1); // Adjust delay as needed
   }
 
  onSubmit(meetingForm: NgForm){
